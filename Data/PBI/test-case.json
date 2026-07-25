@@ -1,0 +1,13 @@
+{
+  "testCaseName": "Add Least Price Item to Cart",
+  "description": "As a shopper on Amazon, I want the system to automatically identify the least-priced item from the search results and add it to my cart, so that I can quickly purchase the most affordable option without manually comparing prices.",
+  "steps": [
+    "Navigate to Amazon and search for a product such as \"iPhone 16 Plus\".",
+    "Retrieve all visible items from the search results.",
+    "Compare the item prices and identify the lowest-priced item.",
+    "Select the least-priced item.",
+    "Add the selected item to the cart.",
+    "Verify the confirmation message or cart page shows the selected item."
+  ],
+  "expectedResult": "The lowest-priced item from the search results is selected and successfully added to the cart, and the user sees confirmation that the item is in the cart."
+}
