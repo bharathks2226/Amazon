@@ -10,6 +10,6 @@ import { test, expect } from '@playwright/test';
   await page.screenshot({ path: './screenshots/screenshot1.png' });
   await page.screenshot({ path: './screenshots/screenshot2.png', fullPage: true });
   await page.getByRole('button', { name: 'Add to cart' }).first().click();
-  await page.pause();
+  //await page.pause();
 
   }  ) 
